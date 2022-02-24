@@ -11,12 +11,8 @@ You can also use these commands to enable and disable your account for receiving
 ```
 
 # Installation
-This bot should work self-hosted (.env) or on repl.it (repl secrets)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-1. Fork this repo
-1. Change config.js
-1. Set up a host on your preferred hosting platform
-1. Create an application+bot in the Discord Developer Portal
 1. Add the following environment variables to your host:
    1. CLIENT_ID
    1. BOT_SECRET
