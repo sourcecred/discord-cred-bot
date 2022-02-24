@@ -12,6 +12,12 @@
   "env": {
     "GITHUB_SECRET": {
       "description": "A key with read and write access to your sourcecred instance."
+    },
+    "CLIENT_ID": {
+      "description": "Your discord application's Application ID."
+    },
+    "BOT_SECRET": {
+      "description": "Your discord application's bot token."
     }
   }
 }
