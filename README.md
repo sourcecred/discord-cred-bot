@@ -11,7 +11,7 @@ You can also use these commands to enable and disable your account for receiving
 ```
 
 # Installation
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sourcecred/discord-cred-bot)
 
 1. Add the following environment variables to your host:
    1. CLIENT_ID

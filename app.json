@@ -1,4 +1,17 @@
 {
   "name": "SourceCred Discord Bot",
-  "description": "A multi-purpose discord bot for communities using SourceCred."
+  "description": "A multi-purpose discord bot for communities using SourceCred.",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ],
+  "env": {
+    "GITHUB_SECRET": {
+      "description": "A key with read and write access to your sourcecred instance."
+    }
+  }
 }
